@@ -1,5 +1,5 @@
 
-body {
+.containBody {
   padding: 20px;
   margin: auto;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -7,6 +7,7 @@ body {
   line-height: 150%;
   color: #333;
   background: #ededed;
+  width: 960px;
 }
 
 header, nav {
