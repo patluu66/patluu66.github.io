@@ -6,7 +6,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background: silver;
+  background: #ededed;
 }
 
 header, nav {
@@ -16,52 +16,71 @@ header, nav {
 }
 
 
+
+
 h1, nav {
   padding: 20px 0;
   margin: 0;
   margin-bottom: 20px;
   font-size: 28px;
   color: #eee;
-  text-align: center;
-  background: #333;
+  text-align: left;
+  background: #4aaaa5;
 }
 
 footer { 
     display: block;
-    background-color: #333;
+    background-color: #666666;
     width: 960px;
-    height: 100px;
+    height: 50px;
     text-align: center;
     color: #eee;
+    font-size: 12px;
+    padding-top: 40px;
 }
 
 h2 {
   font-size: 24px;
 }
 
-p {/*
-  float: left;*/
-  background-color: red;
+p {
+  /*float: left;*/
+  background-color: white;
   /*text-align: top;*/
   /*height: 400px;*/
 }
 
 a {
-  color: #d21034;
+  color: white;
 }
 
 article {
   /*float: left;*/
-  background-color: gray;
+  background-color: white;
   padding: 10px;
   margin-left: 10px; 
   margin-right: 10px; 
+}
+
+img {
+    float: left;
+    margin: 0 0 10px 10px;
 }
 
 .clearfix {
   
   margin: 0 auto;
   overflow: auto;
+}
+
+.contact {
+  margin: 20px 20px 20px 20px;
+}
+
+.menu {
+  text-align: right;
+  font-size: 18px;
+  color: green;
 }
 
 #section,
@@ -72,20 +91,18 @@ article {
 #section {
   margin-right: 20px;
   text-align: left;
-  /*padding-top: 10px;*/
-  background-color: green;
-  width: 570px;
+  /*padding-top: 20px;*/
+  /*margin-left: 20px; */
+  background-color: white;
+  width: 670px;
   height: 600px;
 }
 
 #aside {
   background-color: white;
-  width: 370px;
-  height: 600px;
+  width: 270px;
+  height: 150px;
 }
-
-
-
 
 
 
